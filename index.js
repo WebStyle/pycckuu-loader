@@ -1,6 +1,6 @@
 module.exports = function(содержимое) {
   [
-    [/внимание\s*\(/g, 'alert('],                        // alert
+    [/diqqat\s*\(/g, 'alert('],                        // alert
     [/консоль\./g, 'console.'],                          // console
     [/console\.(логировать|лог)\s*\(/g, 'console.log('], // log
     [/стоп(;|\s+)/g, 'break$1'],                         // break
